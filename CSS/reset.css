@@ -1,4 +1,13 @@
+body {
+    font-family: "fira code";
+}
+
 body,h1,h2 {
     margin: 0;
     text-underline-offset: 0;
+}
+
+button {
+    border:none;
+    font-family: "inherit"
 }
