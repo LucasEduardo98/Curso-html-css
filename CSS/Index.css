@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #BB6BD9;
+    background-color: #55a7c0;
     border-bottom: 10px solid #000;
     padding:10px 20px 10px 20px;
 }
@@ -10,7 +10,7 @@ nav {
     text-align: right;
 }
 img { /*Eu Adicionai*/
-    height: 60px; /*Eu Adicionai*/
+    height: 70px; /*Eu Adicionai*/
 }
 a {
     display: inline-flex;
