@@ -1,0 +1,17 @@
+.progress-bar {
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 5px solid #000;
+    height: 40px;
+}
+.progress-bar::-webkit-progress-bar{
+    background-color: pink;
+}
+.progress-bar::-webkit-progress-value{
+    background-color: red;
+}
+.skill-tec.right, .skill-tec div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
