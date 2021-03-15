@@ -11,3 +11,8 @@
 .section.-project{
     background-color: gray;
 }
+
+.section.-about{
+    background-color:#7C5E99;
+    border-color: red;
+}
