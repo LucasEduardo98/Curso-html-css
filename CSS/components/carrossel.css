@@ -1,0 +1,57 @@
+.carrossel{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+    overflow: hidden;
+
+}
+
+.carrossel::after{
+    content: " ";
+    position: absolute;
+    left: 60px;
+    top:38px;
+    display:block;
+    height: 5px;
+    width: calc(100% - 120px);
+    background-color: rgb(0, 0, 000);
+}
+
+.carrossel::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top:38px;
+    display:block;
+    border-top: 5px dashed #000;
+    width: 100%;
+
+}
+
+.carrossel .button-arrow{
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.carrossel .button-arrow.-back{
+    left:15px;
+}
+
+.carrossel .button-arrow.-next{
+    right: 15px;
+}
+
+.carrossel .itens{
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.carrossel .elements{
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
+}
