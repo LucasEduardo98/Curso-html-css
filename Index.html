@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="CSS/components/project-img.css">
     <link rel="stylesheet" href="CSS/components/description.css">
     <link rel="stylesheet" href="CSS/components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/components/node-card.css">
+    <link rel="stylesheet" href="CSS/components/carrossel.css">
 
     <link rel="stylesheet" href="CSS/Index.css">
 </head>
@@ -140,12 +142,61 @@
     <section class="section -about">
         <h1 class="main-title -second">Sobre</h1>
 
-        <button class="button-arrow -back"><span class="content">Voltar</span></button>
-        <button class="button-arrow -next"><span class="content">Avançar</span></button>
+        <section class="carrossel">
+            <button class="button-arrow -back"><span class="content">Voltar</span></button>
+            <div class="itens">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                        <img src="assets/img/logo-locaweb.png" alt="Logo da LocaWeb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                        <img src="assets/img/logo-caelum.png" alt="Logo da LocaWeb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                        <img src="assets/img/logo-getninjas.png" alt="Logo da LocaWeb" >
+                        </div>
+                    </figure>
+                    
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                        <img src="assets/img/logo-caelum.png" alt="Logo da LocaWeb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -second">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                        <img src="assets/img/logo-impulso.png" alt="Logo da LocaWeb" >
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -third">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                        <img src="assets/img/logo-collabcode.png" alt="Logo da LocaWeb" >
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <button class="button-arrow -next"><span class="content">Avançar</span></button>
+        </section> 
 
         <p class="description">
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
     </section>
+
+    <script src="js/components/carrossel.js"></script>
 </body>
 </html>
