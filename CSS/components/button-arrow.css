@@ -17,12 +17,10 @@
     width: 20px;
     height: 20px;
     border: 20px solid transparent;
-    border-left: 30px solid coral;
+    border-left: 30px solid rgb(174, 211, 228);
     transform: translateX(5px);
 }
 
 .button-arrow.-back::before{
     transform: rotate(180deg) translateX(16px);
 }
-
-.button-arrow.-next
