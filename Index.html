@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="CSS/components/main-input.css">
     <link rel="stylesheet" href="CSS/components/main-label.css">
     <link rel="stylesheet" href="CSS/components/footer.css">
+    <link rel="stylesheet" href="CSS/components/main-form.css">
 
     <link rel="stylesheet" href="CSS/Index.css">
 </head>
@@ -203,15 +204,15 @@
 
     <section class="section -contacts">
         <h1 class="main-title -second">Contatos</h1>
-        <form class="form" action="">
+        <form class="main-form" action="">
             <label class="main-label" for="Nome">Nome</label>
-            <input class="main-input" type="text" id="nome" name="Nome de Usuário">
+            <input class="main-input" type="text" id="nome" name="Nome de Usuário" required>
 
             <label class="main-label" for="E-mail">E-mail</label>
-            <input class="main-input" type="email" id="email" name="E-mail do Usuário">
+            <input class="main-input" type="email" id="email" name="E-mail do Usuário" required>
 
             <label class="main-label" for="Mensagem">Deixe sua mensagem</label>
-            <textarea class="main-input -textarea" id="Mensagem" name="Mensagem do usuário"></textarea> 
+            <textarea class="main-input -textarea" id="Mensagem" name="Mensagem do usuário" required></textarea> 
 
             <input class="button -send" type="submit" value="Enviar"></imput>
         </form>
