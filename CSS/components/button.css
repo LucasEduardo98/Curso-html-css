@@ -15,3 +15,8 @@
     margin:0px 5px 5px; 
     transform: scale(1.08);
 }
+
+.button.-send{
+    border-radius: 0%;
+    width: 100%;
+}
