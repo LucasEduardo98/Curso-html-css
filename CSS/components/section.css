@@ -16,14 +16,8 @@
     background-color:#7C5E99;
     border-color: red;
 }
-
-.section.-end{
-    display: flex;
-    justify-content: center;
-    padding: 27px;
-    background-color: black;
-}
-
-.section.-end img{
-    margin: 0px 20px 0px 20px;
+.section.-contacts{
+    background-color: #3A4042;
+    border: none;
+    border-color: white;
 }
